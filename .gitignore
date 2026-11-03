@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+nbcache/
+# large generated files
+data/dataset_c1.npz
+out/
+logs/
+*.aux
+*.log
+*.out
+*.synctex.gz
+# advisor's code and trained actors are NOT ours to redistribute: add locally
+external/minimal-metarl/*
+!external/minimal-metarl/.gitkeep
